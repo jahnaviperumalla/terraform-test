@@ -3,6 +3,6 @@
   MyEC2Instance: 
     Type: AWS::EC2::Instance
     Properties: 
-      ImageId: "image"
-      KeyName: "testkey"
+      ImageId: image
+      KeyName: testkey
       AvailabilityZone: us-west-2a
