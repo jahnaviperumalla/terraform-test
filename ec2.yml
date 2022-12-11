@@ -5,4 +5,4 @@
     Properties: 
       ImageId: "image"
       KeyName: "testkey"
-      
+      AvailabilityZone: us-west-2a
