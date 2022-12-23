@@ -1,0 +1,15 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: An example template for a creating Route53.
+Resources:
+  Route53:
+   Type: AWS::Route53::RecordSet
+   Properties:
+     HostedZoneId: zoneid1
+     Name: name1
+     ResourceRecords:
+     - 192.0.2.99
+     Type: type1
+     TTL: 900
+     Region: region1
+     
+        
