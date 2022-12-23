@@ -1,3 +1,4 @@
+---
 - name: create-rds-instance
   hosts: localhost
   gather_facts : false
