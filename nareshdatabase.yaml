@@ -6,11 +6,11 @@
     - name: provision postgres rds instance
       rds:
         command: create
-        size: 20
+        size: '20'
         instance_type: instance_type1 
         db_name: db_name1
         db_engine: engine1
-        engine_version: engine_version1
+        engine_version: 'engine_version1'
         password: master_user_password1
         username: master_username1
         region: region1
