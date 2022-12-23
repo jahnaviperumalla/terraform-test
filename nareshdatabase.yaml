@@ -7,15 +7,12 @@
       rds:
         command: create
         size: 20
-        availability_zone: availability_zone1
         instance_type: instance_type1 
         db_name: db_name1
-        db_subnet_groups: db_subnet_groups1
         db_engine: engine1
         engine_version: engine_version1
         password: master_user_password1
         username: master_username1
         region: region1
-        storage_type: storage_type1
         tags:
           environment: test
