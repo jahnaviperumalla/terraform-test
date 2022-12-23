@@ -8,7 +8,7 @@
         command: create
         size: '20'
         instance_name: sample_rds
-        instance_type: 'instance_type1'
+        instance_type: instance_type1
         db_name: db_name1
         db_engine: engine1
         engine_version: 'engine_version1'
