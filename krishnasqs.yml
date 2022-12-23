@@ -41,6 +41,7 @@ Parameters:
       and isolate these messages in the dead-letter queue to determine why their processing
       doesn't succeed.
     Type: String
+    Default: usedeadletterqueue1
     AllowedValues:
     - 'true'
     - 'false'
